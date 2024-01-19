@@ -1020,9 +1020,6 @@ $country
         $msg = '';
         $cid = _post('cid');
 
-        var_dump($cid);
-
-        /*
         $d = ORM::for_table('crm_accounts')->find_one($cid);
         $email = $d['email'];
         $toname = $d['account'];
@@ -1041,7 +1038,7 @@ $country
         } else {
             echo $msg;
         }
-        */
+        
         break;
 
     case 'modal_add':
